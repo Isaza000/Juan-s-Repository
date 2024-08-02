@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="es">
+ 
+  <head>
+    <title>Formulario de contacto simple</title>
+  </head>
+ 
+  <body>
+    
+    <h1>Formulario de contacto con PHP</h1>
+    <p>Prueba de formulario de contacto elaborado con HTML y ejecutado con PHP</p>
+  
+    <form method="post" action="contactosimple.php">
+        
+      Nombre <input type="text" name="nombre"><br  />
+      Apellido <input type="text" name="apellido"><br  />
+      Email <input type="email" name="email"><br  />
+      Tipo de mensaje
+      <select name="tipo">
+          <option value=""></option>
+          <option value="Consulta">Consulta</option>
+          <option value="Queja">Queja</option>
+          <option value="Sugerencia">Sugerencia</option>
+          <option value="Otros">Otros</option>
+      </select><br  />
+      Mensaje <textarea name="mensaje"></textarea><br  />
+      <input type="submit" value="Enviar mensaje"><br  />
+      
+  </form>
+  
+  </body>
+  
+</html>
